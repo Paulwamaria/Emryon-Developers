@@ -8,3 +8,17 @@ img{
   height: 20%;
   width: 20%;
 }
+#profile{
+  background-color:gray;
+}
+
+p{
+  font-family:sans-serif;
+  
+}
+
+.about-me{
+  width:80%;
+  float:right;
+  
+}
