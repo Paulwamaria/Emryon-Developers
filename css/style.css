@@ -20,5 +20,9 @@ p{
 .about-me{
   width:80%;
   float:right;
-  
+
+}
+.column{
+  width :900px;
+  display:flex;
 }
