@@ -1,4 +1,8 @@
 
+body{
+  background-color:black;
+  margin:auto;
+}
 h1{
   color:green;
   background-color:black;
@@ -11,12 +15,18 @@ h2{
   width:300px;
   margin:auto;
 }
+h3{
+  color:black;
+  text-align:center;
+  width:300px;
+  margin:auto
+}
 img{
   height: 20%;
   width: 20%;
 }
 #profile{
-  background-color:gray;
+  background-color:#4d704d;
 }
 
 p{
@@ -27,6 +37,7 @@ p{
 .about-me{
   width:80%;
   float:right;
+  
 
 }
 .column{
@@ -34,8 +45,25 @@ p{
   display:flex;
 }
 .edu{
-  background-color:#4d704d;
+  background-color:gray;
 }
 #backg, #moring{
   width:50%
+}#portf{
+  width:80%;
+  background-color:#4d704d;
+}
+#sidebar{
+  width:20%;
+  float:right;
+  background-color:#4d704d;
+  border:2px solid black;
+}
+#r{
+  background-color:black;
+  width:720px;
+}
+.pad{
+  padding-left:10px;
+  padding-right:10px;
 }
