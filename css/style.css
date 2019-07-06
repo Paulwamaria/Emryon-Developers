@@ -2,24 +2,21 @@
 body{
   background-color:#efc3fa;
   margin:auto;
+  text-align:center;
 }
 h1{
   color:green;
   background-color:black;
-  text-align:center;
   margin-top:0px;
 }
 h2{
   
   color:green;
-  text-align:center;
  
   margin:auto;
 }
 h3{
   color:green;
-  
-  text-align:center;
   width:300px;
   margin:auto
 }
@@ -62,7 +59,9 @@ p{
 }
 #sidebar{
   width:25%;
+  font-size:18px;
   float:right;
+  line-height:20px;
   background-color:#efc3fa;
   border:2px solid black;
 }
@@ -75,22 +74,35 @@ span{
   font-style:bold;
   color:blue;
 }
-.inline{
-  display:flex;
-  justify-content: space-between;
-}
 
 #navbar{
 padding:5px 5px 5px 5px;
   margin-right:5px;
   float:right;
   width:20%;
-  font-size:18px;
+  font-size:22px;
+  font-style:bold;
+
 }
 a{
   text-decoration:none;
 }
+ul,ol{
+  text-align:left;
+  padding-left:200px;
+}
 #lang{
   font-family: 'Courier New', Courier, monospace;
+
+}
+
+@media screen and(min-width:500px){
+  .column{
+    display:block;
+    width:100%;
+  }
+  body{
+    background-color:rgb(98, 32, 160);
+  }
 
 }
