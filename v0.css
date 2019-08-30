@@ -5,9 +5,13 @@ body{
 	justify-content: center;
 }
 
-.card-bordy, .card{
+.card-bordy, .card, .home{
 
   background-color:rgba(0, 0, 0, 0.5);
+  
+}
+.card p{
+  color: white;
 }
 .header{
 	background-image:radial-gradient(circle, black, #63B8FF,#000000, #222288);
@@ -187,8 +191,11 @@ p{
 		color:green;
 		width:100%;
 	}
-a{
-	text-decoration: none;
+.card a{
+  text-decoration: none;
+  background-color: #000000;
+  border-radius:5px;
+  padding:5px;
 }
 .agreen{
 	color:green;
