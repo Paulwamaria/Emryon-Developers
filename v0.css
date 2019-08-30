@@ -4,6 +4,11 @@ body{
 .container-fluid{
 	justify-content: center;
 }
+
+.card-bordy, .card{
+
+  background-color:rgba(0, 0, 0, 0.5);
+}
 .header{
 	background-image:radial-gradient(circle, black, #63B8FF,#000000, #222288);
 	position:relative;
@@ -61,8 +66,9 @@ display:flex;
 }
 #display{
 	position:relative;
-	width:70%;
-	background-image:radial-gradient(circle, #63B8FF, white);
+  width:70%;
+  background-image:url("./images/monkey.jpg");
+	/* background-image:radial-gradient(circle, #63B8FF, white); */
 	padding:5px 20px 0px 20px;
 	margin-top:0px;
 	color:white;
@@ -194,4 +200,9 @@ a{
   #welc{
   	text-align: center;
   	display:block;
+  }
+  #profp{
+    width:100%;
+    height:auto;
+    border-radius:20%;
   }
