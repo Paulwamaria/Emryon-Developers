@@ -1,8 +1,26 @@
 Body{
-  background-color:#efc3fa;
+
   text-align:center;
+  height: 100vh;
 }
-.hobs{
-  width:200px;
-  margin:auto;
+.container-fluid{
+    
 }
+
+.navbar{
+    float: center;
+}
+.contacts{
+    height:100vh;
+    padding-top:calc(30vh - 60px);
+    background-image:url(../images/cold_landscape-wallpaper-2880x1620.jpg);
+    width:100%;
+  }
+  .contacts a{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    color:white;
+  }
+  .conts{
+    background-color:rgba(0, 0, 0, 0.5);
+  }

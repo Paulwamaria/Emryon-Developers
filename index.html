@@ -1,116 +1,275 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Paul Wamaria</title>
-  <link href ="css/style.css" rel = "stylesheet" type = "text/css">
+	<title> Emryon developers</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://use.fontawesome.com/cf7547e1af.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Squada+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="v0.css">
+	<script src="v0.js"></script>
 </head>
 <body>
-  <div id = potforlio>
-    
-    <div>
-        <h1>MY CODING PORTFOLIO</h1>
-        <div id = "navbar">
-            <a href="contacts.html">Contacts</a>
-            <a href="portfolio.html">portfolio</a>
-            <a href="hobbies.html">hobbies</a>
-            <a href="#">about</a>
-  
-        </div>
-    </div>
-   
-    <div id ="profile">
-        <img src ="images/profile.jpg" alt = "profile picture" class="pad">
-      <div class = about-me> 
-        <h2>About Me</h2>
-
-        <p class="pad">
-            
-          My name is <span>Paul Kamau Wamaria</span>.I am an aspiring and dedicated student at <a href="https://moringaschool.com/">Moringa School</a>
-           pursuing a prep course to
-           become a <strong>Full stack web</strong><em> developer</em>. It has been my passion to work in a 
-           computer related field and I have  a good feeling that I am on the right track. 
-           Just imagine of a school where you can learn at your own pace with technical mentors who are willing to help you anytime or wherever
-           you are as long as you want to. That place is Moringa.
-        </p>
-
+<div class="container_fluid">
+  <div class="container-fluid">
+    <div class = "header">
+      <div class="navbar  text-white">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contacts.html">Contacts</a>
+      
       </div>
+    <img  id = "header-image" src="images/Emryon01-g.png">
+    <!--creating the buttons on the header-->
+    <div class= "navbarr" id = link-buttons">
+    <button class = "linkLink" id = "defaultOpen" onclick = "openPage(event, 'home')">ABOUT</button>
+
+    <button class = "linkLink" onclick = "openPage(event, 'web')">WEB DEVELOPMENT</button>	
+    <button class= "linkLink" onclick = "openPage(event, 'graphics')">GRAPHICS</button>	
+    <button class= "linkLink" onclick = "openPage(event, 'film')">VIDEO</button>
+    <button class = "linkLink" onclick = "openPage(event, 'blog')">PORTFOLIO</button>		
     </div>
-
-  
-      <div class="edu">
- 
-
-        <div class="colum">
-          <div id ="backg" class="pad">
-              <h2 >Education background</h2>
-
-            <p >
-              After  dropping out of kenyatta university for not being able to afford a laptop, I got a job that I never liked  and 
-              it drained all my energy. I bought a desktop and started self teaching coding but it was overwhelming.
-               I shifted my attention towards <span>graphic design</span> and found out that to be able to operate heavy graphic softwares 
-              such as Autodesk maya, I needed some programming skills. I focussed my attention back to coding through online tutorials
-              until a friend of mine suggested that I should try <a href="#">Moringa School</a>. Follow this <a href ="back-education.html">link</a> to learn more about my <a href="back-education.html">education background</a>
+    </div>
+    <!--creating the main content area and the sidebars-->
+    <div id="main-content">
+      <div class = "wrap">
+        <div id = "primary-sidbar">
+          <figure>
+            <img src = "images/profp.jpg" alt="Paulwamaria's image" id="profp">
+            <figcaption>Paul Wamaria <br>Web developer</figcaption>
+          </figure>
+          <h2>hot offer!</h2>
+          <p>We are offering 25&#37 discount to the first five clients on web design.Better get in touch while the deal is hot!<br><a href="mailto:helloemryon@gmail.com"><i>helloemryon@gmail.com</i></a></p>
+        </div>
+        <div id = "display">
+          <div id ="welc">
+                <!--  <h1> Hello and welcome to Emryon...</h1>
+                  <h2>Your home of <strong>software</strong> and <strong>graphics</strong></h2>-->
+          </div>
+          <div id = "home" class = "linkContents home">
+            <h1>welcome to emryon developers</h1>
+            <h3>The future is bright. Get some shades.</h3>
+            <p>
+              Emryon Developers is a multipurpose digital company aimed at providing simple solutions to problems encountered in any of the following fields:
+            </p>
+            <ul>
+              <li>Web design</li>
+              <LI>Web development</LI>
+              <li>Video editing techniques</li>
+              <li>Motion graphics design.(Animation)</li>
+              
+            </ul>
+            
+            <p>
+              We are in a digital world where a little delay renders ones' skills obsolete. Give us the opportunity to accomplish our dream of being the best service provider in the market and we'll never let you down.  We have a highly dedicated team  that is determined to give our clients the best service possible. We also take the initiative to mentor the youth who seem to be drowning in a sea of gambling and depression. Through our mental health blog, we want to be our brother's keeper. 
             </p>
           </div>
-          <div id="moring" class="pad">
-            <h2>Moringa school</h2>
+          <div id = "web" class = "linkContents">
+            <h1>we create responsive websites </h1>
+            <h3>It's time for you to own a website</h3>
+            <p>
+              Is it just me all is everybody else asking why you don't have a website yet? Why not take advantage of our ongoing offer and get a website at 25&#37 discount. The following is what we do best when it comes to web design:
 
-            <P>
-              I applied for a prep course at Moringa  and got invited for an interview. You  can't imagine how happy I was when I received the 
-              acceptance email. This is where I am currently learning to code:
-            </P>
-            <ul id="lang">
-              <li>GIT</li>
-              <li>CSS</li>
-              <li>Java script</li>
-              <li>Soft skills</li>
+            </p>
+            <ul>
+              <li>Creating new simple to complex responsive web sites.</li>
+              <li>Updating old websites to cope with the ever evolving technology.</li>
+              <li>Designing website templates.</li>
+              <li> Creating webbased applications.</li>
+            </ul>
+            
+          </div>
+          <div id = "graphics" class = "linkContents">
+            <h1>motion graphics is changing the world of entertainment and advertisement!</h1>
+            <h3>Ever thought of trying animated adverts? What about a new logo?</h3>
+            <p>
+              Well, the good thing about Motion graphics is that the only limit to what we can achieve is the level of imagination. Bearing in mind that imagination is the strongest muscle of a designer, a writer or any other artist whatsoever, we specialize at generating graphic related contents that are diverse and original.<br>With heavy graphic softwares such as Autodesk maya, Zbrush, 3dsmax, after effects, Illustrator, cinema 4d among others, here is what we do in a nutshell:-
+
+            
+            </p>
+            <ul>
+              <li>Designing both static and motion logos.</li>
+              <li>Designing eye catching animated adverts.</li>
+              <li>Desigining website frameworks.</li>
+              <li>Graphical user interface.</li>
+            </ul>
+            <div>
+              <video class="vid" width = "1280" height= "720" controls>
+                <source src="images/mylogo_02.mp4" type="video/mp4">
+                
+              </video>
+            </div>
+          </div>
+          <div id = "film" class = "linkContents">
+            <h1>want video editing or film production services?</h1>
+            <h3>Add some spices to your video</h3>
+            <p>
+              Sometimes the best way to reach the market is by combining both <strong>visual</strong> and <strong>audio</strong>. This is why you need a proffesional video editor to add or even remove some spices from your video.  
+            </p>
+            <ul>
+              <li>Editing footage</li>
+              <li>Compositing footage</li>
+              <li>Ading 3d elements into the footage</li>
+              <li>Creating visual effects</li>
             </ul>
 
-
-
-             
+          </div>
+          <div class=" portfolio  linkContents text-center " id="blog">
+            <div class="row">
+                <div class="col-md-6 ml-10">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h1 class="card-title">POCADETROPIZZA</h1>
+                          <h2 class="card-subtitle mb-2 text-muted">ordering pizza online</h2>
+                          <p class="card-text">Pocadetro pizza is a web application that allows a user to order pizza online. The application allows the user to make a choice when it comes to the size, crust ,toppings or mode of delivery. The application then calculates the total cost and notifies the user.</p>
+                          <a href=" https://paulwamaria.github.io/Pocadetro_Pizza/" class="card-link">View page</a>
+                          
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h1 class="card-title">QUOTES</h1>
+                          <h2 class="card-subtitle mb-2 text-muted">Getting motivation online</h2>
+                          <p class="card-text">A web application that allows a user to input their favorite quotes and add them to the page list. The app also allows the user to down vote or up vote an specific quote depending how touched they are. </p>
+                          <a href="https://paulwamaria.github.io/Quotes" class="card-link">View page</a>
+                        
+                        </div>
+                      </div>
+                </div>
+    
             </div>
-        </div> 
-      </div>   
-      <div class = "column " > 
 
-        <div id="portf" class = "pad">
-          <h1>portfolio</h1>
+            <div class="row">
+                <div class="col-md-6 ml-10">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h1 class="card-title">GIT SEARCH</h1>
+                          <h2 class="card-subtitle mb-2 text-muted">Search Github Users</h2>
+                          <p class="card-text">Git Search is a web application that allows a user to enter a github username in the search box and returns the subjects names and description of the public repositories. The application uses a github API.</p>
+                          <a href="https://paulwamaria.github.io/githubSearch/" class="">View page</a>
+                          
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h1 class="card-title">AKAN NAME FINDER</h1>
+                          <h2 class="card-subtitle mb-2 text-muted">Know Your Akan Name</h2>
+                          <p class="card-text">A web application that allows a user to input their favorite quotes and add them to the page list. The app also allows the user to down vote or up vote an specific quote depending how touched they are. </p>
+                          <a href="https://paulwamaria.github.io/Akan-Name-Finder/" class="card-link">View page</a>
+                        
+                        </div>
+                      </div>
+                </div>
+    
+            </div>
+            
 
-          <p>Through the help of Moringa Tecnical mentors and their wornderful Learning management system, here are some
-              of the Websites that I have created. </p>
+            <div class="row">
+                <div class="col-md-6 ml-10">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h1 class="card-title">DELANI STUDIO</h1>
+                          <h2 class="card-subtitle mb-2 text-muted">A Fictional Studio</h2>
+                          <p class="card-text">Delani Studio is a website about a fictional studio that deals with a range of services starting from brand-strategy, interactions and  visual design  as well as user experience testing.</p>
+                          <a href="https://paulwamaria.github.io/Delani-Studio/" class="">View page</a>
+                          
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h1 class="card-title">GOALS</h1>
+                          <h2 class="card-subtitle mb-2 text-muted">Manage Your Goals</h2>
+                          <p class="card-text"></p>A web application that allows a user to manage their goals. </p>
+                          <a href="https://paulwamaria.github.io/Goals/" class="card-link">View page</a>
+                        
+                        </div>
+                      </div>
+                </div>
+    
+            </div>
 
-          <h4><a href ="https://paulwamaria.github.io/happyTrailsTravel/">Happy Trails Travel Agency</a> </h4>
-          <p>
-            A simple website giving details about a travelling agency. Follow this link <a href ="https://paulwamaria.github.io/happyTrailsTravel/">https://paulwamaria.github.io/happyTrailsTravel</a> to view the webpage
-          </p>
-          <h4><a href ="https://github.com/Paulwamaria/myfirstWebpage.git">My first website</a></h4>
+              
 
-          <p>My first website is a simple webpage written with a little guidance from <em>Moringa</em> to practice with
-          the most common elements of a basic html page. </p>
+          </div>
+          <!-- <div id = "blog" class = "linkContents">
+            <h1>lets talk about mental health</h1>
+            <h3>mental health</h3>
+            <article>
+              <p>
+                But what is mental health? What exactly is being normal? Well most people believe that being normal is not wearing tattered clothes while walking along the streets collecting papers. I believe being normal is being at equilibrium between your inner and your outer self, it is like that point where your blood pressure balances with the atmospheric pressure, it’s the middle of the swing of a pendulum. Its when you know who you are. It's also when you know that your selfworth does not depend on your accomplishements or other people's approval.
+              </p>
+              <p><strong>Mental health</strong> is the pattern of one's thinking, functioning and behavior. This pattern could appear abnormal in which case we presume that the subject has at least one of the mental health disorders. It is a sensitive issue that the society is not well aware of and may lead to suicidal depression and probably early death. It has already claimed lives of many who could be alive today had they opened up to people who understand. The next victim could be your relative, or you friend and this is why we need to create mental health awareness. We all should be ready when depression strikes.</p>
+            <p>Mental health is a difficult subject to comprehend because one could be a picture perfect on the outside but deep within, they are mess, or a house of cards just one blow away from caving in. This is why sometimes we hear these kinds of statements on interviews pertaining suicide issues: <i>“she was so happy and full of joy, I just can’t understand why she took her own life…I simply didn’t see it coming.”</i> My point is, sometimes even the victims themselves will not know that they are emotionally compromised. Well, sometimes it will be obvious but other times it will require a keen study on the behavioral change on a person’s life. These are some of the ways that one can tell that they are mentally disturbed:-
+              </p>
+            <h3>General signs and symptoms of mental illness.</h3>
+            <ul>
+              <li>Neurosis</li>
+              <li>Loss of interest and pleasure in activities previously enjoyed.</li>
+              <li>Feeling of worthlessness or guilt.</li>
+              <li>Feeling sadness</li>
+              <li>Lack of energy and the feeling of fatigue</li>
+              <li>Suicidal thoughts.</li>
+              <li>Difficulties in thinking,impulsive and indesicive.</li>
+            </ul>
 
-          <h4><a href="https://github.com/Paulwamaria/Mnazi-resort">Mnazi Island Resort </a></h4>
+            <p>
+            When we talk about mental illness, its depression that comes in mind, but what we need to understand is that depression can mask itself in form of other disorders such as personality disorders, anxiety disorders or substance abuse disorders.
+            </p>
+            
+              <h3>Depression</h3>
+              <p>
+  It is also known as Major Depressive Disorder (MDD) and is an emotional condition characterized by the feeling of low self-worth, guilt and inability to enjoy life as it unfolds. Watch out for the religious fanatics who think depression is demon possession and will even go to the extent of trying exorcism. This will only worsen the situation.
 
-          <p>Follow this <a>link</a> for more details on the  pages that I have created:<a href="portfolio.html"> portfolio.html</a></p>
+            </p>
+            <h3>Causes of depression</h3>
+            <p>The real cause of depression is unknown but there are risk factors that may lead to depression.</p>
+            <dl>
+              <dt>personality</dt>
+              <dd>It is obvious that pessimistic people, cynical people and people who have low self esteem have a higher chance of falling into depression. These are simply people who can't handle stress.</dd>
+              <dt>Environment</dt>
+              <dd>
+                Destructive criticism, Abuse,violence and sometimes extreme poverty may lead depression.
+              </dd>
+              <dt>Genetics</dt>
+              <dd>
+                Sometimes it just runs in the family.
+              </dd>
+              <dt>Biochemistry</dt>
+              <dd>
+                Sometimes the brain just malfunctions resulting to chemical imbalance that inturn lead to depression.
+              </dd>
+            </dl>
+            <p>
+              <i>How can we treat depression?</i> Well the good thing about depression is that its treatable. The victim may use medication by taking anti depressants or psychotherapy. The later is ussually the best mode of treatment as it involves assessing the problem from the root. This method is sometimes referred to as the <strong><q>bacterial approach</q></strong>; We treat the bacteria rather than the symptom. However, therapy only works if the victim is willing to cooporate. Sometimes the victims may fail to share their problems especially if the depression is accompanied by <i>social anxiety disorder</i>. In such scenarios, its only the victims that can help themselves. All we can do is point them towards self-help books and hope that they'll take the initiative to transform their live.  As a matter of fact, the best therapy is when you make the victim understand that healing comes from within. Let us take the initiative and create mental health awareness. Let us be our neighbours watch and intervene when there is a problem. May we never come to say that we did not see that coming.
+            </p>
+            </article>
+          </div> -->
 
         </div>
-
-        <div  id= "sidebar" class="pad">
-      
-          <h3>hobbies</h3>
-          <P>
-            Coding is extremely exhausting, and therefore one is encouraged to identify atleast two ways of which they can decompress.
-             Here is how I decompress. .
-          </P>
-          <ul>
-            <li>Exercising</li>
-            <li>listening to music</li>
-          </ul>
-
-          <p><i><a href="hobbies.html">More</a> about <a href="hobbies.html">hobbies</a></i> </p>
-
+        <div id = "tertiary-sidbar">
+          <h2>favourite quotes</h2>
+          <blockquote><i>"Luck is preparation meeting the moment of opportunity" </i>Oprah Winfrey.</blockquote>
+          <blockquote><i>"Faillure is a feeling long before its an actual result" </i>Michelle Obama.</blockquote>
         </div>
-      </div> 
+      </div>
+    </div> 
+
+    <div class = "footer">
+      <p id = "cop">&copy <strong>2019 <a class="agreen" href="#">Emryon developers</a></strong> </p>
+      <p id = "meil"><strong>Email:</strong><a  class = "agreen" href = "mailto: helloemryon@gmail.com"><i>helloemryon@gmail.com</i></a></p>
+      <p id = "contact"><strong>Contacts:</strong>0780 404 626</p>
+    </div> 
   </div>
+</div>
 </body>
 </html>

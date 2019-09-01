@@ -217,3 +217,11 @@ p{
     height:auto;
     border-radius:20%;
   }
+  .navbar a{
+    font-family: 'Bungee Inline', cursive;
+    
+  }
+  .navbar a:hover{
+    background-image:radial-gradient(circle, #63B8FF,rgb(46, 45, 45));
+      
+  }
