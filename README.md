@@ -1,12 +1,14 @@
- ### Emryon Developers
+ ###  Emryon Developers
  
-####  Creating My portforial website ,  created on 5th of July  
+ ####  Description
 
-##  Description
+Emryon Developers is a personal website developed by Paul wamaria, the founder of Emryon Developers. The applications gives an account of what the company deals ranging from web development, graphic design, video editing and animation in general. The application also has a portfolio where one can see all the websites created. 
 
-Emryon Developers is a personal website developed by Paul wamaria, the founder of Emryon Developers.
+ 
+####  Creating My personal website ,  created on 5th of July  
 
-###Technology
+
+###  Technology
 * Html
 * css
 * Javascript
